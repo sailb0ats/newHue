@@ -1,0 +1,29 @@
+.mainElement{
+	width: 100%;
+	margin: 0;
+}
+
+.light{
+	width: 15%;
+	margin: 0 5% 5% 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.light .field{
+	margin-bottom: 2px;
+}
+
+.light .value{
+	margin-right: 2%;
+}
+
+.light .field .label, .light .field .value{
+	vertical-align: bottom;
+	display: inline;
+}
+
+.adjust, .display{
+	min-width:35%;
+	display: inline-block;
+}
