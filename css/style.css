@@ -14,16 +14,11 @@
 	margin-bottom: 2px;
 }
 
-.light .value{
+.light .field .label{
+	display: inline-block;
 	margin-right: 2%;
 }
 
 .light .field .label, .light .field .value{
-	vertical-align: bottom;
 	display: inline;
-}
-
-.adjust, .display{
-	min-width:35%;
-	display: inline-block;
 }
